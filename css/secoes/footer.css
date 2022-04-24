@@ -68,16 +68,11 @@
     row-gap: 2rem;
 }
 
-
 .lista__redesocial {
     display: flex;
     flex-direction: row;
     justify-content: center;
     column-gap: 1.7rem;
-}
-
-.itens__redesocial {
-    
 }
 
 .facebook::before {

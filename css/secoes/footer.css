@@ -1,0 +1,105 @@
+.container__footer {
+    width: 100%;
+    height: 25.312rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo__footer {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--branco);
+    row-gap: 2rem;
+    box-sizing: border-box;
+}
+
+
+.paragrafo__footer {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--branco);
+}
+
+.subtitulo__footer {
+    font-size: 2.2rem;
+    padding-top: 1.2rem;
+    color: var(--branco);
+    font-weight: 700;
+}
+.sobre__footer {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    color: var(--branco);
+    row-gap: 2rem;
+    margin-right: 6rem;
+    box-sizing: border-box;
+}
+
+.contato__footer {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    box-sizing: border-box;
+
+}
+
+.contato__addres {
+    line-height: 3rem;
+}
+
+.rede__social {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    row-gap: 2rem;
+}
+
+
+.lista__redesocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1.7rem;
+}
+
+.itens__redesocial {
+    
+}
+
+.facebook::before {
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    content:"\f082";
+    color: red;
+}
+
+.instagram::before {
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    content:"\f16d";
+    color: red;
+}
+
+.twitter::before {
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    content:"\f081";
+    color: red;
+}

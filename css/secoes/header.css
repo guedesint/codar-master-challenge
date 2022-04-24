@@ -15,7 +15,8 @@
 }
 
 .logo {
-    display: flex;align-self: baseline;
+    display: flex;
+    align-self: baseline;
     font-size: 4rem;
     font-weight: 800;
     font-style: italic;

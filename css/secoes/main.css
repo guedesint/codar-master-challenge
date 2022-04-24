@@ -77,6 +77,7 @@
                         ' botao botao';
     justify-items: center;
     align-items: center;
+    margin-bottom: 15.625rem;
 }
 
 .container__lista-empresa {
@@ -153,4 +154,59 @@
     color: var(--branco);
     box-sizing: border-box;
 }
+
+/* CSS COMENTARIOS */
+
+.container__comentarios {
+    width: 92%;
+    height: 17.187rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 'comentario1 comentario2';
+    column-gap: 3%;
+}
+
+.container__comentario-1 {
+    background-color: #99999999;
+    width: 97%;
+    height: 70%;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:'bola paragrafo'
+                        'bola nome';
+}
+
+.bola__vermelha {
+    width: 70%;
+    height: 60%;
+    grid-area: bola;
+    background-color: var(--vermelho);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.paragrafo__comentario {
+    grid-area: paragrafo;
+    font-size: 1.273rem;
+    font-weight: 400;
+    align-self: center;
+}
+
+.nome__comentario {
+    grid-area: nome;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    align-self: flex-end;
+}
+
+.cargo__comentario {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 

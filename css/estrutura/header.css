@@ -1,0 +1,51 @@
+
+.container__header {
+    width: 100vw;
+    height: 135px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3.3rem;
+    padding-right: 2.5rem;
+}
+
+.logo_header {
+    width: 11rem;
+    height: 3.2rem;
+}
+
+.container__nav {
+    width: 50%;
+    display: flex;
+}
+
+.lista-nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 2.875rem;
+    margin-top: 2rem;
+}
+
+.item-nav {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.botao-nav {
+    width: 13.9rem;
+    height: 3.75rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--branco);
+    font-weight:700;
+    background-color: var(--vermelho);
+    border-radius: 15px;
+}

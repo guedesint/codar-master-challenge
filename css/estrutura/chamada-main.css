@@ -1,0 +1,33 @@
+.container__chamada {
+    width: 104%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem1__chamada {
+    width: 31.75rem;
+    height: 27.375rem;
+    box-sizing: border-box;
+}
+
+.conteudo__chamada {
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+}
+
+.paragrafo-conteudo__chamada {
+    font-size: 1.94rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.titulo-conteudo__chamada {
+    font-size: 4.7rem;
+    font-weight: 700;
+    color: var(--vermelho);
+    padding-bottom: 4rem;
+}

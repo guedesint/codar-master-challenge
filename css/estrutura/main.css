@@ -1,0 +1,8 @@
+.container__main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 8rem;
+}

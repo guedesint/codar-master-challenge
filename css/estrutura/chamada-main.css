@@ -6,6 +6,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    column-gap: 8rem;
 }
 
 .imagem1__chamada {
@@ -16,18 +17,32 @@
 
 .conteudo__chamada {
     box-sizing: border-box;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .paragrafo-conteudo__chamada {
     font-size: 1.94rem;
     font-weight: 700;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .titulo-conteudo__chamada {
     font-size: 4.7rem;
     font-weight: 700;
     color: var(--vermelho);
-    padding-bottom: 4rem;
+    padding-bottom: 3.5rem;
+}
+
+.container__botao-conteudo__chamada {
+    width: 21.6rem;
+    height: 3.8rem;
+    box-sizing: border-box;
+    background-color:var(--vermelho);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: 1.7rem;
+    font-weight: 500;
 }

@@ -1,0 +1,56 @@
+@media screen and (max-width:375px) {
+    .container__conteudo-main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "imagem"
+        "lista"
+        "contato";
+        margin-top:11rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem__conteudo-main {
+        width: 60%;
+        justify-self: center;
+    }
+
+    .lista__conteudo-main {
+        padding-top: 2rem;
+        padding-left: 4rem;
+    }
+
+    .item__conteudo-main {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    .item__conteudo-main::before {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .contato__conteudo-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulo__contato__conteudo-main {
+        font-size: 1.2rem;
+    }
+
+    .input__conteudo-main {
+        width: 75%;
+        height: 3.5rem;
+        margin-right: 0;
+    }
+
+    .button__conteudo-main {
+        width: 75%;
+        height: 3.5rem;
+    }
+
+}

@@ -79,12 +79,3 @@
     box-sizing: border-box;
 }
 
-.button__conteudo-main:hover {
-    background-color: rgb(236, 36, 36);
-    transition: 4seg all;
-    cursor: pointer;
-}
-
-.button__conteudo-main:active {
-    background-color: var(--vermelho);
-}

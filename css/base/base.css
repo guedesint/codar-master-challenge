@@ -7,3 +7,14 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+.efeito__button:hover {
+    background-color: rgb(236, 36, 36);
+    transition: 4seg all;
+    cursor: pointer;
+}
+
+.efeito__button:active {
+    background-color: var(--vermelho);
+}
+

@@ -1,0 +1,64 @@
+.container__comentario-main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+    box-sizing: border-box;
+}
+
+
+.container__comentario {
+    background-color: rgb(217, 217, 217, 1);
+    width: 37.5rem;
+    height: 12.5rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    
+    grid-template-areas:
+    "circulo texto"
+    "circulo texto";
+}
+
+.circulo__vermelho {
+    width: 5.625rem;
+    height: 5.625rem;
+    background-color: var(--vermelho);
+    grid-area: circulo;
+    grid-row: span 2;
+    border-radius: 50%;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.paragrafo__comentario-1 {
+    font-size:1.3rem ;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+.paragrafo__comentario-2 {
+    font-size:1.350rem ;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+.perfil__comentario{
+    font-size: 1.7rem;
+    align-self: flex-end;
+
+}
+
+.instituicao {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 0.5rem;
+}

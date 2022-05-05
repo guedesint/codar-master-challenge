@@ -1,0 +1,39 @@
+@media screen and (max-width:375px) {
+    .container__comentario-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .container__comentario {
+        width: 19.687rem;
+        height: 9.375rem;
+        padding: 1rem;
+        box-sizing: border-box;
+        column-gap: 0.5rem;
+    }
+
+    .circulo__vermelho {
+        width: 3.75rem;
+        height: 3.75rem;
+    }
+
+    .paragrafo__comentario-1 {
+        font-size: 0.88rem;
+    }
+
+    .paragrafo__comentario-2 {
+        font-size: 0.9rem;
+    }
+
+    .perfil__comentario {
+        font-size: 1.4rem;
+    }
+
+    .instituicao {
+        font-size: 0.9rem;
+        padding-top: 0.3rem;
+    }
+}

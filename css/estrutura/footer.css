@@ -1,0 +1,19 @@
+.container__footer {
+    width: 100vw;
+    height: 26.875rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-top: 6.25rem;
+    background-color: rgb(25, 245, 117);
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+}
+
+.item__rede-social {
+    width: 40px;
+    height: 40px;
+}

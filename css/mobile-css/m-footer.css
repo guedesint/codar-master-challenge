@@ -1,0 +1,70 @@
+@media screen and (max-width:375px) {
+    .container__footer {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5rem;
+    }
+    
+    .header__footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .logo__footer {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .paragrafo__footer{
+        width: 77%;
+        font-size: 0.9rem;
+        line-height: normal;
+    }
+
+    .paragrafo__footer-header-mobile {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .sobre__footer {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .subtitulo__footer {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;   
+    }
+
+    .contato__footer {
+        width: 100%;
+    }
+
+    .estilo__address {
+        width: 77%;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .container__redesocial {
+        width: 100%;
+    }
+
+    .lista__rede-social {
+        justify-content: flex-start;
+    }
+    
+    .icone {
+        font-size: 40px;
+    }
+}
